@@ -20,7 +20,7 @@ markdown_extensions:
   - toc:
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
 nav:
-  - Poema IX: index.md
+  - MOEIX: index.md
   - PoP List: PoP-List.md
   - Member List: members.md
   - Route Server: RS.md
