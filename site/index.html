@@ -278,6 +278,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ix-lan-prefix" class="md-nav__link">
+    IX LAN prefix
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#configure" class="md-nav__link">
     Configure
   </a>
@@ -426,6 +433,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ix-lan-prefix" class="md-nav__link">
+    IX LAN prefix
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#configure" class="md-nav__link">
     Configure
   </a>
@@ -515,8 +529,13 @@
 <li>Your intranet must have IGP and iBGP routing protocols running in it and be able to differentiate between peer and transit tables.</li>
 <li>The network interface attached on the IX VM is only used for constructing an internal network tunnel and not for any other services.</li>
 </ul>
+<h2 id="ix-lan-prefix">IX LAN prefix</h2>
+<ul>
+<li>IPv4: <code>23.146.72.192/26</code></li>
+<li>IPv6: <code>2a0a:280:f000:3::/64</code></li>
+</ul>
 <h2 id="configure">Configure</h2>
-<p>We have three route servers, with 3 different policies  </p>
+<p>We have three route servers, with 2 different policies  </p>
 <p><strong>If you don't know what this is, please establish sessions to <code>RS Regular</code> only</strong>  </p>
 <ul>
 <li>RS1, RS2<ul>
@@ -527,8 +546,16 @@
 <li>In a nutshell: <strong>Config the RS session as peering session</strong></li>
 <li>You can connect to this RS without any concern, we will do IRR and RPKI validation for you.</li>
 <li>A BGP connection with <code>RS1</code> is mandatory and you must <strong>announce at least one IPv6 route from your own network</strong>.</li>
-<li>RS1: IP Address: <code>2a0a:280:f000:3::1</code></li>
-<li>RS2: IP Address: <code>2a0a:280:f000:3::2</code></li>
+<li>IPv4:<ul>
+<li>RS1: <code>23.146.72.193</code></li>
+<li>RS1: <code>23.146.72.194</code></li>
+</ul>
+</li>
+<li>IPv6:<ul>
+<li>RS1: <code>2a0a:280:f000:3::1</code></li>
+<li>RS2: <code>2a0a:280:f000:3::2</code></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -539,7 +566,10 @@
     * <a href="\RS#default-filtering-policy">Filtering Policy</a>
     * <a href="\RS#announcement-control-via-bgp-communities">Communities</a>
     * In a nutshell: <strong>Config the RS session as upstream</strong>
-    * IP Address: <code>2a0a:280:f000:3::3</code></p>
+    * IPv4:
+        * RS3: <code>23.146.72.195</code>
+    * IPv6:
+        * RS3: <code>2a0a:280:f000:3::3</code></p>
 <h2 id="members">Members</h2>
 <p>See members list: <a href="\members">Members</a></p>
 <h2 id="limitations">Limitations</h2>
