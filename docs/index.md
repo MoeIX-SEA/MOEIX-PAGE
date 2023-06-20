@@ -51,12 +51,13 @@ We have three route servers, with 2 different policies
     * A BGP connection with `RS1` is mandatory and you must **announce at least one IPv6 route from your own network**.
     * IPv4:
         * RS1: `23.146.72.193`
-        * RS1: `23.146.72.194`
+        * RS2: `23.146.72.194`
+        * IPv4 session is optional
     * IPv6:
         * RS1: `2a0a:280:f000:3::1`
         * RS2: `2a0a:280:f000:3::2`
 
-RS3:
+* RS3
     * AS210979
     * Transit route server
     * Your route will be transit to limewave via MoeQing Network
