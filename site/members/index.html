@@ -394,14 +394,6 @@
 <td RS="RS3" neigh_ip="2a0a:280:f000:3:0:14:731:0">-</td>
 </tr>
 <tr>
-<td>140731</td>
-<td><a href="https://bgp.tools/as/140731">TOHU Public Internet</a></td>
-<td>AS-TOHUNET-TRANSIT-WUS</td>
-<td RS="RS1" neigh_ip="23.146.72.196">-</td>
-<td RS="RS2" neigh_ip="23.146.72.196">-</td>
-<td RS="RS3" neigh_ip="23.146.72.196">-</td>
-</tr>
-<tr>
 <td>200078</td>
 <td><a href="https://bgp.tools/as/200078">Potat0</a></td>
 <td>AS200078:AS-SET</td>
@@ -493,17 +485,17 @@
 <td>200105</td>
 <td><a href="https://bgp.tools/as/200105">MoeQing Network</a></td>
 <td>AS-MoeQing</td>
-<td RS="RS1" neigh_ip="2a0a:280:f000:3:0:20:105:0">-</td>
-<td RS="RS2" neigh_ip="2a0a:280:f000:3:0:20:105:0">-</td>
-<td RS="RS3" neigh_ip="2a0a:280:f000:3:0:20:105:0">-</td>
+<td RS="RS1" neigh_ip="23.146.72.197">-</td>
+<td RS="RS2" neigh_ip="23.146.72.197">-</td>
+<td RS="RS3" neigh_ip="23.146.72.197">-</td>
 </tr>
 <tr>
 <td>200105</td>
 <td><a href="https://bgp.tools/as/200105">MoeQing Network</a></td>
 <td>AS-MoeQing</td>
-<td RS="RS1" neigh_ip="23.146.72.197">-</td>
-<td RS="RS2" neigh_ip="23.146.72.197">-</td>
-<td RS="RS3" neigh_ip="23.146.72.197">-</td>
+<td RS="RS1" neigh_ip="2a0a:280:f000:3:0:20:105:0">-</td>
+<td RS="RS2" neigh_ip="2a0a:280:f000:3:0:20:105:0">-</td>
+<td RS="RS3" neigh_ip="2a0a:280:f000:3:0:20:105:0">-</td>
 </tr>
 <tr>
 <td>201217</td>
@@ -605,8 +597,8 @@ async function render_mamber_list(rs_info){
             table_block.innerHTML = "-".link(get_state_url(0,client.name,"detail",proxy_url,lg_baseurl))
             continue;
         };
-        let num_i = client.route.ipv6.imported;
-        let num_f = client.route.ipv6.filtered;
+        let num_i = client.route.ipv4.imported + client.route.ipv6.imported;
+        let num_f = client.route.ipv4.filtered + client.route.ipv6.filtered;
         table_block.innerHTML = num_i.toString().link(get_state_url(num_i,client.name,"route_from_protocol_all",proxy_url,lg_baseurl)) + "," + 
         num_f.toString().link(get_state_url(num_f,client.name,"route_filtered_from_protocol_all",proxy_url,lg_baseurl));
     };

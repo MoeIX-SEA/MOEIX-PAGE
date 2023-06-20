@@ -8,7 +8,6 @@ For real time data, check out our [Looking Glass](https://lg-moeix.moeqing.com:8
 |-----|-----|-----|-----|-----|-----|
 | 203472 | [Poema Network](https://bgp.tools/as/203472) | AS-POEMA | - {: neigh_ip='2a0a:280:f000:3:0:20:3472:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:3472:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:3472:0' RS='RS3' } |
 | 140731 | [TOHU Public Internet](https://bgp.tools/as/140731) | AS-TOHUNET-TRANSIT-WUS | - {: neigh_ip='2a0a:280:f000:3:0:14:731:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:14:731:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:14:731:0' RS='RS3' } |
-| 140731 | [TOHU Public Internet](https://bgp.tools/as/140731) | AS-TOHUNET-TRANSIT-WUS | - {: neigh_ip='23.146.72.196' RS='RS1' } | - {: neigh_ip='23.146.72.196' RS='RS2' } | - {: neigh_ip='23.146.72.196' RS='RS3' } |
 | 200078 | [Potat0](https://bgp.tools/as/200078) | AS200078:AS-SET | - {: neigh_ip='2a0a:280:f000:3:0:20:78:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:78:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:78:0' RS='RS3' } |
 | 150184 | [OwONetwork](https://bgp.tools/as/150184) |  | - {: neigh_ip='2a0a:280:f000:3:0:15:184:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:15:184:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:15:184:0' RS='RS3' } |
 | 199605 | [JSMSR Network](https://bgp.tools/as/199605) | AS-JSMSR | - {: neigh_ip='2a0a:280:f000:3:0:19:9605:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:19:9605:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:19:9605:0' RS='RS3' } |
@@ -20,8 +19,8 @@ For real time data, check out our [Looking Glass](https://lg-moeix.moeqing.com:8
 | 199656 | [AS199656](https://bgp.tools/as/199656) |  | - {: neigh_ip='2a0a:280:f000:3:0:19:9656:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:19:9656:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:19:9656:0' RS='RS3' } |
 | 204508 | [AS204508](https://bgp.tools/as/204508) | AS-MLGT | - {: neigh_ip='2a0a:280:f000:3:0:20:4508:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:4508:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:4508:0' RS='RS3' } |
 | 57934 | [AS57934](https://bgp.tools/as/57934) | AS-WJY | - {: neigh_ip='2a0a:280:f000:3:0:5:7934:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:5:7934:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:5:7934:0' RS='RS3' } |
-| 200105 | [MoeQing Network](https://bgp.tools/as/200105) | AS-MoeQing | - {: neigh_ip='2a0a:280:f000:3:0:20:105:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:105:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:105:0' RS='RS3' } |
 | 200105 | [MoeQing Network](https://bgp.tools/as/200105) | AS-MoeQing | - {: neigh_ip='23.146.72.197' RS='RS1' } | - {: neigh_ip='23.146.72.197' RS='RS2' } | - {: neigh_ip='23.146.72.197' RS='RS3' } |
+| 200105 | [MoeQing Network](https://bgp.tools/as/200105) | AS-MoeQing | - {: neigh_ip='2a0a:280:f000:3:0:20:105:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:105:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:105:0' RS='RS3' } |
 | 201217 | [RADISHCLOUD](https://bgp.tools/as/201217) | AS-RADISH | - {: neigh_ip='2a0a:280:f000:3:0:20:1217:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:1217:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:1217:0' RS='RS3' } |
 | 203888 | [YU-Net](https://bgp.tools/as/203888) | AS-YU | - {: neigh_ip='2a0a:280:f000:3:0:20:3888:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:3888:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:3888:0' RS='RS3' } |
 | 203236 | [Lily Network](https://bgp.tools/as/203236) | AS-LILY | - {: neigh_ip='2a0a:280:f000:3:0:20:3236:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:3236:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:3236:0' RS='RS3' } |
@@ -58,8 +57,8 @@ async function render_mamber_list(rs_info){
             table_block.innerHTML = "-".link(get_state_url(0,client.name,"detail",proxy_url,lg_baseurl))
             continue;
         };
-        let num_i = client.route.ipv6.imported;
-        let num_f = client.route.ipv6.filtered;
+        let num_i = client.route.ipv4.imported + client.route.ipv6.imported;
+        let num_f = client.route.ipv4.filtered + client.route.ipv6.filtered;
         table_block.innerHTML = num_i.toString().link(get_state_url(num_i,client.name,"route_from_protocol_all",proxy_url,lg_baseurl)) + "," + 
         num_f.toString().link(get_state_url(num_f,client.name,"route_filtered_from_protocol_all",proxy_url,lg_baseurl));
     };

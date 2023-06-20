@@ -538,7 +538,9 @@
 <p>We have three route servers, with 2 different policies  </p>
 <p><strong>If you don't know what this is, please establish sessions to <code>RS Regular</code> only</strong>  </p>
 <ul>
-<li>RS1, RS2<ul>
+<li>
+<p>RS1, RS2</p>
+<ul>
 <li>AS210979</li>
 <li>A regular route server</li>
 <li><a href="\RS#default-filtering-policy">Filtering Policy</a></li>
@@ -548,7 +550,8 @@
 <li>A BGP connection with <code>RS1</code> is mandatory and you must <strong>announce at least one IPv6 route from your own network</strong>.</li>
 <li>IPv4:<ul>
 <li>RS1: <code>23.146.72.193</code></li>
-<li>RS1: <code>23.146.72.194</code></li>
+<li>RS2: <code>23.146.72.194</code></li>
+<li>IPv4 session is optional</li>
 </ul>
 </li>
 <li>IPv6:<ul>
@@ -558,18 +561,26 @@
 </li>
 </ul>
 </li>
+<li>
+<p>RS3</p>
+<ul>
+<li>AS210979</li>
+<li>Transit route server</li>
+<li>Your route will be transit to limewave via MoeQing Network</li>
+<li><a href="\RS#default-filtering-policy">Filtering Policy</a></li>
+<li><a href="\RS#announcement-control-via-bgp-communities">Communities</a></li>
+<li>In a nutshell: <strong>Config the RS session as upstream</strong></li>
+<li>IPv4:<ul>
+<li>RS3: <code>23.146.72.195</code></li>
 </ul>
-<p>RS3:
-    * AS210979
-    * Transit route server
-    * Your route will be transit to limewave via MoeQing Network
-    * <a href="\RS#default-filtering-policy">Filtering Policy</a>
-    * <a href="\RS#announcement-control-via-bgp-communities">Communities</a>
-    * In a nutshell: <strong>Config the RS session as upstream</strong>
-    * IPv4:
-        * RS3: <code>23.146.72.195</code>
-    * IPv6:
-        * RS3: <code>2a0a:280:f000:3::3</code></p>
+</li>
+<li>IPv6:<ul>
+<li>RS3: <code>2a0a:280:f000:3::3</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h2 id="members">Members</h2>
 <p>See members list: <a href="\members">Members</a></p>
 <h2 id="limitations">Limitations</h2>
