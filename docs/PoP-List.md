@@ -26,7 +26,8 @@ Access Method
         1. You must have your own intranet (tunnel-based is fine) and include our provided VM in your network.
         2. The internal network must have IGP and iBGP routing protocols running and be able to separate between peer and transit routes.
         3. The network interface attached on the IX VM is only used for constructing and connecting your internal network tunnel and not for any other services.
-        4. Approach learning with a humble attitude and be nice.
+        4. You must peering with Route Server 1 and announce at least one active routes. Otherwise your free VM will be reclaimed.
+        5. Learning with a humble attitude and be nice.
     ???+ "Free IX VM Rules"
         * Comply with the laws of the United States.
         * Personal use only; transfer, rental, and commercial uses are prohibited.

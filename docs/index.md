@@ -44,7 +44,17 @@ We have three route servers, with 3 different policies
     * In a nutshell: **Config the RS session as peering session**
     * You can connect to this RS without any concern, we will do IRR and RPKI validation for you.
     * A BGP connection with `RS1` is mandatory and you must **announce at least one IPv6 route from your own network**.
-    * IP Address: `2a0a:280:f000:3::1`
+    * RS1: IP Address: `2a0a:280:f000:3::1`
+    * RS2: IP Address: `2a0a:280:f000:3::2`
+
+RS3:
+    * AS210979
+    * Transit route server
+    * Your route will be transit to limewave via MoeQing Network
+    * [Filtering Policy](\RS#default-filtering-policy)
+    * [Communities](\RS#announcement-control-via-bgp-communities)
+    * In a nutshell: **Config the RS session as upstream**
+    * IP Address: `2a0a:280:f000:3::3`
 
 ## Members
 
