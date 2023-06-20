@@ -1,0 +1,32 @@
+site_name: MOE IX
+theme:
+  name: material
+  # name: windmill-dark
+  custom_dir: static
+  features:
+    - content.tabs.link
+  palette:
+    primary: 'green'
+    scheme: slate
+extra_css:
+  - css/hidefooter.css
+markdown_extensions:
+  - pymdownx.tilde
+  - pymdownx.extra
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+nav:
+  - Poema IX: index.md
+  - PoP List: PoP-List.md
+  - Member List: members.md
+  - Route Server: RS.md
+site_url: https://ix.poema.eu.org/
+repo_url: https://github.com/KSKBpage/KSKB-IX
+edit_uri: blob/main/docs/
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
