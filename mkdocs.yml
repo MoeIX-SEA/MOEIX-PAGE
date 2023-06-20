@@ -24,8 +24,8 @@ nav:
   - PoP List: PoP-List.md
   - Member List: members.md
   - Route Server: RS.md
-site_url: https://ix.poema.eu.org/
-repo_url: https://github.com/KSKBpage/KSKB-IX
+site_url: https://moeiix.top
+repo_url: https://github.com/MoeIX-SEA/MOEIX-PAGE
 edit_uri: blob/main/docs/
 plugins:
   - search:
