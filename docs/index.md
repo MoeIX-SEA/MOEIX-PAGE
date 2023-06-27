@@ -25,11 +25,6 @@ MoeIX is a non-commercial Internet Exchange Point (IXP) established in 2020. It 
 * Have up-to-date RIR Whois information
 * Only send traffic to destinations advertised by BGP on the Peering LAN
 * Does not send any multicast (except ARP/IPv6 ND) packets
-* Prohibition of commercial service and abuse
-* Have a active intranet, and running iBGP in it.
-* Must have your own intranet (tunnel-based is acceptable) and include the provided VM in the network.
-* Your intranet must have IGP and iBGP routing protocols running in it and be able to differentiate between peer and transit tables.
-* The network interface attached on the IX VM is only used for constructing an internal network tunnel and not for any other services.
 
 ## IX LAN prefix
 
@@ -43,7 +38,7 @@ We have three route servers, with 2 different policies
 
 * RS1, RS2
     * AS210979
-    * A regular route server
+    * Regular route server
     * [Filtering Policy](\RS#default-filtering-policy)
     * [Communities](\RS#announcement-control-via-bgp-communities)
     * In a nutshell: **Config the RS session as peering session**
