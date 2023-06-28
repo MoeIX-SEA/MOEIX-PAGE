@@ -30,6 +30,8 @@ For real time data, check out our [Looking Glass](https://lg-moeix.moeqing.com:8
 | 208223 | [fOxO Internet Service Provider](https://bgp.tools/as/208223) | AS208223:AS-ALL | - {: neigh_ip='2a0a:280:f000:3:0:20:8223:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:8223:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:8223:0' RS='RS3' } |
 | 200850 | [Netsyn](https://bgp.tools/as/200850) | AS-NETSYN | - {: neigh_ip='2a0a:280:f000:3:0:20:850:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:850:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:850:0' RS='RS3' } |
 | 207705 | [JK Network](https://bgp.tools/as/207705) | AS-JKNET | - {: neigh_ip='2a0a:280:f000:3:0:20:7705:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:7705:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:7705:0' RS='RS3' } |
+| 200455 | [HOTARU NETWORK](https://bgp.tools/as/200455) | AS200455:AS-ALL | - {: neigh_ip='2a0a:280:f000:3:0:20:455:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:455:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:455:0' RS='RS3' } |
+| 200754 | [SHADOWRHYTHM](https://bgp.tools/as/200754) | AS200754:AS-SHADOWRHYTHM | - {: neigh_ip='2a0a:280:f000:3:0:20:754:0' RS='RS1' } | - {: neigh_ip='2a0a:280:f000:3:0:20:754:0' RS='RS2' } | - {: neigh_ip='2a0a:280:f000:3:0:20:754:0' RS='RS3' } |
 
 <script>
 let rs_list = ["RS1:2a0a:280:f000:3::1","RS2:2a0a:280:f000:3::2","RS3:2a0a:280:f000:3::3"];

@@ -523,11 +523,6 @@
 <li>Have up-to-date RIR Whois information</li>
 <li>Only send traffic to destinations advertised by BGP on the Peering LAN</li>
 <li>Does not send any multicast (except ARP/IPv6 ND) packets</li>
-<li>Prohibition of commercial service and abuse</li>
-<li>Have a active intranet, and running iBGP in it.</li>
-<li>Must have your own intranet (tunnel-based is acceptable) and include the provided VM in the network.</li>
-<li>Your intranet must have IGP and iBGP routing protocols running in it and be able to differentiate between peer and transit tables.</li>
-<li>The network interface attached on the IX VM is only used for constructing an internal network tunnel and not for any other services.</li>
 </ul>
 <h2 id="ix-lan-prefix">IX LAN prefix</h2>
 <ul>
@@ -542,7 +537,7 @@
 <p>RS1, RS2</p>
 <ul>
 <li>AS210979</li>
-<li>A regular route server</li>
+<li>Regular route server</li>
 <li><a href="\RS#default-filtering-policy">Filtering Policy</a></li>
 <li><a href="\RS#announcement-control-via-bgp-communities">Communities</a></li>
 <li>In a nutshell: <strong>Config the RS session as peering session</strong></li>
